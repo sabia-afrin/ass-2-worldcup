@@ -17,10 +17,8 @@ body{
  height:30%;
  border-radius: 10px;
  margin-bottom: 50px;
- /* background: rgb(246, 248, 249) ; */
 }
 .text-container{
- /* margin: 0 auto; */
  color: #FFFFFF;
  text-align: center;
 }
@@ -38,8 +36,8 @@ padding: 10px;
  background:navy;
   font-size: 20px;
   border: transparent;
-  /* margin-top: 5px ; */
   transition: all .3s linear;
+  margin-top: 10px;
 }
 .hero-btn:hover{
  background:rgb(109, 109, 137);
@@ -52,11 +50,9 @@ font-size: 1.25rem;
 }
 .img-container{
   margin: 0 auto;
+  margin-top: 20px;
 }
-.hero-img{
-  width: 100%;
-  height: 100%;
-}
+
 .img p{
   text-decoration: none;
 }
@@ -67,6 +63,7 @@ font-size: 1.25rem;
   font-size: 16px;
   border-radius: 5px;
   border: transparent;
+
 }
 .blogs{
   display: block;
@@ -78,17 +75,14 @@ font-size: 1.25rem;
   height: 15rem;
 border-radius: 10px;  
 width: 100%;
-  /* border: 1px solid gray; */
 }
 .blogs-container{
   display: grid;
   gap: 2rem 1rem;
-  /* border: 2px solid red; */
   margin: 0 auto;
   width: 80vw;
 }
 .tags-container{
-  /* border: 2px solid blue; */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -109,20 +103,13 @@ grid-template-columns: 1fr 1fr 1fr;
   padding: 20px;
 }
 
-/* .blog{
-  width: 312px;
-  height: 175px;
-} */
-/* icons */
 .icons{
   display: flex;
   justify-content: space-evenly;
-  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .icon{
   margin-left: 5px;
-  /* border: 1px solid red; */
-  margin-top: 5px;
 }
 .fa-regular{
   padding: 10px;
@@ -177,7 +164,6 @@ margin: 0 auto;
 margin-top: 30px;
 margin-bottom: 30px;
 width:100px ;
-visibility: hidden;
 }
 .view-all{
   color: #FFFFFF;
@@ -198,7 +184,7 @@ margin-left: 30px 100px;
 .footer-info a{
   text-decoration: none;
   color: #FFFFFF;
-  padding: 10px 20px;
+  padding: 20px;
 }
 .title{
   padding: 20px;
@@ -207,15 +193,18 @@ margin-left: 30px 100px;
   border: transparent;
   border-radius: 5px;
   font-size: 20px;
-}
 
+}
+.footer-goal{
+  border-bottom: 1px solid gray;
+}
 .fa-brands{
   /* background: red; */
   padding: 20px;
   font-size: 30px;
   margin: 5px;
 } 
-/* group */
+/* match-html */
 .flag{
   display: flex;
   color: navy;
