@@ -127,7 +127,25 @@ grid-template-columns: 1fr 1fr 1fr;
  .blogs-list{
   grid-template-columns: 1fr 1fr;
  } 
- .
+ .view-tab{
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+    display: block;
+
+ }
+ .view-all{
+background: navy;
+font-size: 20px;
+color: #FFFFFF;
+align-items: center;
+border: transparent;
+border-radius: 3px;
+padding: 5px;
+  }
+  #hide{
+    display: block;
+  }
 }
 @media screen and (min-width:992px) {
   .hero-container{
@@ -142,11 +160,11 @@ grid-template-columns: 1fr 1fr 1fr;
   .tags-list{
     grid-template-columns: 1fr;
   }
-  .view-tab{
-    visibility: visible;
+  .view-all{
+    visibility: hidden;
+  }
   }
   
-}
 @media screen and (min-width:1200px) {
   .blogs-list{
     grid-template-columns: 1fr 1fr 1fr;
@@ -156,24 +174,13 @@ grid-template-columns: 1fr 1fr 1fr;
   }
   .hero-btn{
     margin-top: 20px;
+
   }
+  
+
 }
-/* view-btn */
-.view-tab{
-margin: 0 auto;
-margin-top: 30px;
-margin-bottom: 30px;
-width:100px ;
-}
-.view-all{
-  color: #FFFFFF;
-background: navy;
-font-size: 20px;
-  margin: 0 auto;
-border-radius: 5px;
-border: transparent;
-padding: 10px;
-margin-left: 30px 100px;
+#hide{
+  
 }
 .footer-goal{
   /* background: red; */
@@ -210,7 +217,11 @@ margin-left: 30px 100px;
   color: navy;
   justify-content: center;
   align-items: center;
+  padding: 15px;
+
 }
 .match{
 margin: 0 auto;
+  border: 1px solid red;
+
 }
